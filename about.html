@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="shortcut icon" href="file:///C:/Users/KESHAV/Desktop/final%20copy%20of%20coder/Images/logo.png"
+    type="image/x-icon">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="about.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    nav {
+      display: flex;
+      padding: 1% 6%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav img {
+      width: 120px;
+      padding: 1px;
+      margin: 3px;
+    }
+
+    .navlinks {
+      flex: 1;
+      text-align: right;
+    }
+
+    .navlinks ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+    }
+
+    .navlinks ul li a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .navlinks ul li::after {
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: #f44336;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+    }
+
+    .navlinks ul li:hover::after {
+      width: 100%;
+
+    }
+
+    .text {
+      padding: 25px;
+      font-size: 45px;
+      color: black
+    }
+  </style>
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="file:///C:/Users/KESHAV/Desktop/final%20copy%20of%20coder/Images/Coder_Logo.jpg"
+          alt=""></a>
+      <div class="navlinks">
+        <i class="fa fa-times"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Blog</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <div class="text">Coder Blog:-</div>
+    <section class="text-gray-600 body-font overflow-hidden">
+      <div class="container px-5 py- mx-auto">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Pc Builds</span>
+            <span class="mt-1 text-gray-500 text-sm">05 May 2022</span><br>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">PC Builds for Coders - Budget PCs You Can
+              Build This Festive Season</h2>
+            <p class="leading-relaxed">In this blog we are building coding pc under 30k rupees</p>
+            <a href="pc.html" class="text-blue-500 inline-flex items-center mt-4">Read More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Best Laptops</span>
+            <span class="text-sm text-gray-500">05 May 2022</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Best Laptops to buy in a budget of 40K-70K
+            </h2>
+            <p class="leading-relaxed">If you are also confused on which laptop to buy in a budget with good performance
+              ,this blog is then for you</p>
+            <a href="laptop.html" class="text-blue-500 inline-flex items-center mt-4">Read More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+</body>
+
+</html>.
